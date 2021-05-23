@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Waterloo Journey',
+    description: 'Reflections on my terms and all the courses I\'ve taken'
+  },
+  plugins: [
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`, 
+        path: `${__dirname}/src/pages`
+      }
+    }
+  ],
 }
