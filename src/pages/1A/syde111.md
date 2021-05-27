@@ -5,4 +5,4 @@ tags: ['1A']
 excerpt: "My calculus course I took"
 ---
 
-Lorem ipsum
+My favourite course!

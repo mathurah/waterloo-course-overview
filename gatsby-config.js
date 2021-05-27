@@ -18,6 +18,13 @@ module.exports = {
         name: `pages`, 
         path: `${__dirname}/src/pages`
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/1B/syde223`,
+        name: `syde223`,
+      },
+    },
   ],
 }
