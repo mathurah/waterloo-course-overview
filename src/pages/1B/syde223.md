@@ -32,4 +32,3 @@ excerpt: "The data structures course I took"
 ## Post Midterm Content (Trees)
 9. [Binary Tree](/1B/syde223/binary-tree)
 10. [AVL Tree](/1B/syde223/avl-tree)
-11. 
