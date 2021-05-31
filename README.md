@@ -2,7 +2,7 @@
 
 A website containing my thoughts on the courses I've taken so far and any notes! Thought this would be a nice way to have something to look back on at the end of university, and a resource for any students considering SYDE to see what the courses are like. 
 
-Unfortunately, I didn't start documneting much until 2A, so content is still in progress! 
+Unfortunately, I didn't start documenting much until 2A, so content is still in progress! 
 
 **View the website here: https://mathurah-syde-journey.netlify.app/**
 ## How it was built ⚒️
