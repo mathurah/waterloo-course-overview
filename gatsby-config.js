@@ -30,5 +30,6 @@
         ],
       },
     },
+    {resolve: `gatsby-plugin-styled-components`},
   ],
 }
