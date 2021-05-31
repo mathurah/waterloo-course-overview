@@ -1,14 +1,18 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import {graphql, Link} from 'gatsby'
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+import Header from '../components/Header';
+deckDeckGoHighlightElement();
 
 const courseOverview = ({data}) => {
     const {markdownRemark} = data
     const title = markdownRemark.frontmatter.title
     const html = markdownRemark.html
     return (
-        <div style = {{
+        <div className= 'container' style = {{
             fontFamily: 'avenir'
         }}>
+          <Header/>
         <h1>{title}</h1>
             <div className="blogpost" dangerouslySetInnerHTML={{__html: html}} /> 
             {/* going to render the html from the query */}
@@ -25,6 +29,5 @@ export const query = graphql `
             }
         }
     }
-
 `
 export default courseOverview

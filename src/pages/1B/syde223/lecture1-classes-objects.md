@@ -1,11 +1,9 @@
 ---
-path: "/1B/syde223/classes and objects"
+path: "/1B/syde223/lecture1"
 title: "Classes and objects"
 tags: ['1B']
-excerpt: "The design course I took"
 ---
-
-# Lecture 1 - Week 1
+[Back to SYDE 223 lectures](/1B/syde223)
 
 ## Why do we need different data structures?
 Different data structures have advantages and disadvantages. There is no best data structure that can fit the need of all applications.
@@ -203,3 +201,5 @@ In object oriented programming,
 **Data Structure**: Data items and related methods about the same object. 
 
 - By default, a variable member of a class in C++ is **private**
+
+![lol](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)

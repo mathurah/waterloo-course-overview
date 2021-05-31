@@ -1,6 +1,6 @@
 ---
 path: "/1B/syde162"
 title: "SYDE 162"
-tags: ['1B']
+tags: ['main']
 excerpt: "The design course I took"
 ---

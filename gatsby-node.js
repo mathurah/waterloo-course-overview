@@ -33,8 +33,4 @@ exports.createPages = (({graphql, actions}) => {
             })
         )
     })
-
-    
 }) 
-
-

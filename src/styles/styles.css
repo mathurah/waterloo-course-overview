@@ -1,0 +1,76 @@
+h1 {
+    color: #9370DB; 
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+    padding: 0px 60px 60px;
+    font-size: 20px; 
+    line-height: 1.45;
+    max-width: 950px; 
+    margin: 0 auto 4rem;
+}
+
+strong {
+    transition: all linear .2s;
+    background: #F2D9FA !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 700px) {
+  img {
+    width: 100% !important;
+  } 
+}
+
+
+img {
+    width: 60%;
+    height: auto; 
+}
+
+.side-margins {
+    font-size: 20px; 
+    line-height: 1.45;
+    margin: 0 auto 0rem;
+    max-width: 950px; 
+    display: block; 
+    box-sizing: border-box;
+    width: 90%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.home-navigation {
+    color: black; 
+    padding: 20px; 
+    padding-left: 0px; 
+    text-decoration: underline; 
+    text-underline-position: under; 
+    text-decoration-style: wavy; 
+    transition: 0.125s ease-in-out;
+    text-decoration-color: #8BC677;  
+}
+
+a{
+    color: #0000CD; 
+    text-decoration: none;
+}
+a:hover {
+    font-style: italic; 
+    text-decoration: underline; 
+    text-underline-position: under; 
+    text-decoration-style: wavy; 
+    text-decoration-color: #8BC677; 
+    /* transition: all linear .2s; */
+}
+
+.homepage-img {
+    min-width: 0;
+    max-width: 48px; 
+    height: 48px;    
+    aspect-ratio: auto 48 / 48;
+    position: relative; 
+    margin-top: 20px; 
+}

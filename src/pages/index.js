@@ -1,8 +1,7 @@
 import React from "react"
 import {graphql, Link} from 'gatsby'
 import Header from '../components/Header'
-import chain from "lodash/chain";
-import TwoA from '../components/TwoA'
+import '../styles/styles.css';
 
 const Layout = ({data}) => {
   const {edges} = data.allMarkdownRemark
@@ -13,23 +12,15 @@ const Layout = ({data}) => {
     pokopoko[edge.node.frontmatter.path.split("/")[1]].push(edge)
   })
   
-
-  //why are you calliubng it MATHUBEARISGOINGTORULETHEWORLDDDDDDDDDDDHAHAHAHAHAHooo
-  console.log(edges)
-  // const terms = _.chain(edges).groupBy(node => node.node.fields.slug.split('/')[1])
-  // .map(node => node) //using ES6 shorthand to generate the objects
-  // .value();ikj
-  // console.log(terms)
   return (
-    <div style= {{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
+    <div className="side-margins" style= {{
       fontFamily: 'avenir'
     }}>
       <Header/>
-      {/* how do I get this to only display things for each term? */}
-       
+     <h3>👋 hey there!</h3>
+        <p>This blog is a chance for me to look back on all my courses after the degree for memories on what I've learned and my experiences with them!</p>
+        <p>I also thought it would be a good reference for any future SYDEs or those considering Systems Design Engineering to get a better idea of what the courses are like, and hopefully answer the question: What the heck even is Systems Design Engineering? (although I'm still wondering the answer to that question myself).</p>
+        <p>These are the opinions of just one student and I'd encourage you to reach out to other people in Systems Design Engineering to share their experiences!</p>
       {Object.keys(pokopoko).map(section =>{
         return (
         <>
@@ -48,7 +39,9 @@ const Layout = ({data}) => {
 export const query = graphql `
 query OneAquery {
   allMarkdownRemark (
-    sort: {order: ASC, fields: [frontmatter___tags]}),
+    sort: {order: ASC, fields: [frontmatter___tags]}
+    filter: {parent: {}, frontmatter: {tags: {eq: "main"}}}
+    ),
    {
     edges {
       node {
@@ -65,4 +58,3 @@ query OneAquery {
 `
 export default Layout
 
-//filter: {parent: {}, frontmatter: {tags: {eq: "1A"}}}) 

@@ -4,14 +4,15 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-module.exports = {
+ module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Waterloo Journey',
+    title: 'mathurah\'s waterloo journey',
     description: 'Reflections on my terms and all the courses I\'ve taken'
   },
   plugins: [
     `gatsby-transformer-remark`,
+    `gatsby-plugin-theme-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,10 +21,13 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/src/pages/1B/syde223`,
-        name: `syde223`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+          },
+        ],
       },
     },
   ],
