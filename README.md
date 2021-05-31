@@ -4,6 +4,7 @@ A website containing my thoughts on the courses I've taken so far and any notes!
 
 Unfortunately, I didn't start documneting much until 2A, so content is still in progress! 
 
+**View the website here: https://mathurah-syde-journey.netlify.app/**
 ## How it was built ⚒️
 - Using Gatsby and `gatsby transformer remark`, `gatsby-source-filesystem` to process all of the markdown files
 
