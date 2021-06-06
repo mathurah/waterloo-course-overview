@@ -8,8 +8,8 @@
  module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'mathurah\'s course overview',
-    description: 'description'
+    title: 'mathurah\'s waterloo journey',
+    description: 'Reflections on my terms and all the courses I\'ve taken'
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
