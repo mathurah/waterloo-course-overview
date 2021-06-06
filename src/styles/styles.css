@@ -2,6 +2,9 @@ h1 {
     color: #9370DB; 
 }
 
+body {
+    font-family: "Open Sans";
+}
 .container {
     display: flex; 
     flex-direction: column;

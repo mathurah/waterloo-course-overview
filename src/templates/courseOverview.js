@@ -9,9 +9,7 @@ const courseOverview = ({data}) => {
     const title = markdownRemark.frontmatter.title
     const html = markdownRemark.html
     return (
-        <div className= 'container' style = {{
-            fontFamily: 'avenir'
-        }}>
+        <div className= 'container'>
           <Header/>
         <h1>{title}</h1>
             <div className="blogpost" dangerouslySetInnerHTML={{__html: html}} /> 

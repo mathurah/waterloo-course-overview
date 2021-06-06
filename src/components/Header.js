@@ -10,7 +10,7 @@ const TitleAndDescription = ({data}) => {
     // console.log(image)
     return (
       <div style ={{
-        fontFamily: 'avenir',
+        fontFamily: 'open sans',
         fontSize: '20px',
         lineHeight: 1.45,
       }}>
