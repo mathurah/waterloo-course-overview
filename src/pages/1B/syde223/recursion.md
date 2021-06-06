@@ -5,7 +5,6 @@ tags: ['1B']
 ---
 [Back to SYDE 223 lectures](/1B/syde223)
 
-# Recursion
 Recursionas a problem solving strategy: A computing problem can be solved by representing it as smaller versions of itself
 
 ## Recursive vs Non-recursive (Iterative)

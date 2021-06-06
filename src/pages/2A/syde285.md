@@ -12,9 +12,6 @@ In terms of the content, it wasn't too fast paced and the textbook was a really 
 
 One of the difficulties of the group project was that only students with Windows computers will be able to access this software. There are options with remote desktops, but they're not as reliable. ANSYS requires a lot of hard-drive space as well. This was hard in groups since not everyone would have access to the software, so a lot of the load would be depending on a few people to access the software. Hopefully in the in-person execution of this course this won't be a problem as there will be lab computers available!
 
-
-![Granta picture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b452327-8a69-4689-b75f-fd97c445c6d2/granta.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210531T123344Z&X-Amz-Expires=86400&X-Amz-Signature=330a6e343177273e0febe24cfa723928dd6e7ab2f09f3657a23a7967cc487397&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22granta.png%22)
-
 **Advice to anyone taking this course in the future:**
 
 For the group project: make sure your reports are very well done and look professional. Use graphs and charts from the software itself to justify your recommendations and choose your constraints and objectives for your materials wisely. Don't choose a material that doesn't meet all the constraints and objectives you listed earlier! If it doesn't meet one of them, remove them from your constraints/objectives or justify why it's not important.

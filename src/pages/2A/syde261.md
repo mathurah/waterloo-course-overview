@@ -26,11 +26,11 @@ It was also cool to see in the user testing to measure how much people learned a
 
 ---
 *These were the designs of the games by my group!*
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ed50ee94-7835-418e-9aa6-cec300e8e2c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210529%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210529T205751Z&X-Amz-Expires=86400&X-Amz-Signature=7de058943145091cba95fbe4d88bb9e2defffd33a2d7709297b9cbba8f6aea8f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)  
+![](/assets/images/rent-eviction.png)
+![](/assets/images/cards.png)
 
 *This is an example of another team's game, where their emerging technology was ridesharing. It can actually be played at [https://ride-or-die.netlify.app/game](https://ride-or-die.netlify.app/game).*
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f00a30e-5f8c-4c02-a082-d6e5d2ff7a56/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210531T010046Z&X-Amz-Expires=86400&X-Amz-Signature=9a077d50e4db8bc46552ab8d9828e94274913f26ec6af065268eeede439b1617&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![](/assets/images/ride-or-die.png)
 
 ---
 
@@ -40,7 +40,7 @@ This is a little grattitude section - if anyone in my group ends up finding this
 - **Learn people's working styles** Are they deadline driven (only start work closer to when it's due) or are they more proactive? If you know that people are more deadline driven (*and you are not!*), try to give your team artificial deadlines on when you want parts of the project done
 - **Meet regularly**: having regular syncs with your team is the easiest way to get everyone on the same page. It depends on the team, but especially in new groups, people tend to get left on read when messaging in the chat. Everyone else is busy with co-op applications and the burden of their other courses. Carving out that time for a meeting gives everyone that focus time for 261, and also helps emphasize smaller deadlines you have within a team. - Most people wouldn't want to show up to the next team meeting without having anything to show with progress on the project. Don't just meet in the start and end where you simply lay out tasks and then have the final check in when everything is due. 
 - **Break things down into smaller tasks**: Breaking the large task of the group project into smaller sub-tasks really made it a lot more manageable. The first meeting with my team, I took on the "PM" hat and laid out a timeline for the research we needed for our report, and when we wanted to get things done by. Although the final report was due 2 months away, there were a lot of tasks such as game ideation, game design, user testing etc. which would take a lot of time. We tried to plan backwards and gave ourselves the breathing room to be more flexible with 261 work when we have midterms/physics assesments. Here is an example of the deliverables table in my group google doc: 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ed23bf0-d152-4068-a06f-8b70b3dc8a4b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210530T004640Z&X-Amz-Expires=86400&X-Amz-Signature=0c2c5efc50ab89991b5a2b835a37b67401b4010b5d9604ab41cf3b0a1af5651a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![tasks](/assets/images/syde261-tasks.png) 
 - **Have fun!** The best part of working with groups is having fun while you're doing it! My team spent a lot of our syncs trying out card games such as love letter (shoutout to Joy!) so those on the team who weren't familiar with the game we wanted to recreate, have some context. This actually helped with buy-in on the idea, at least on my side. Being someone who hasn't played Love Letter before, I was a little hesitant going forward with the game idea that is based on Love Letter. Once I realized how fun the game was through actually playing it and learning about why my groupmates liked it, really motivated me for the project. It wasn't just one person's idea now, we were all in on it. We wanted to create a game that we ourselves would enjoy playing, and we did exactly that. After our sessions working on the report, we usually ended it off testing our own game, and this even resulted in more iteration on improving our game - win win situation!
 
 

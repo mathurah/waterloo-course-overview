@@ -7,8 +7,8 @@ const Layout = ({data}) => {
   const {edges} = data.allMarkdownRemark
   const pokopoko = {"1A": [], "1B": [], "2A": []}
   edges.forEach((edge) => {
-    console.log(edge)
-    console.log(edge.node.frontmatter.path.split("/"))
+    // console.log(edge)
+    // console.log(edge.node.frontmatter.path.split("/"))
     pokopoko[edge.node.frontmatter.path.split("/")[1]].push(edge)
   })
   
@@ -16,7 +16,7 @@ const Layout = ({data}) => {
     <div className="side-margins" style= {{
       fontFamily: 'avenir'
     }}>
-      <Header/>
+      <Header data={data}/>
      <h3>👋 hey there!</h3>
         <p>This blog is a chance for me to look back on all my courses after the degree for memories on what I've learned and my experiences with them!</p>
         <p>I also thought it would be a good reference for any future SYDEs or those considering Systems Design Engineering to get a better idea of what the courses are like, and hopefully answer the question: What the heck even is Systems Design Engineering? (although I'm still wondering the answer to that question myself).</p>
@@ -36,13 +36,11 @@ const Layout = ({data}) => {
   )
 }
 
-export const query = graphql `
-query OneAquery {
-  allMarkdownRemark (
+export const query = graphql `query OneAquery {
+  allMarkdownRemark(
     sort: {order: ASC, fields: [frontmatter___tags]}
     filter: {parent: {}, frontmatter: {tags: {eq: "main"}}}
-    ),
-   {
+  ) {
     edges {
       node {
         id
@@ -54,6 +52,13 @@ query OneAquery {
       }
     }
   }
+  # file(relativePath: {eq: "hamster.jpg"}, sourceInstanceName: {eq: "images"}) {
+  #   childImageSharp {
+  #     gatsbyImageData(width: 2500, height: 2500, layout: FIXED) {
+  #       ...GatsbyImageSharpFixed
+  #     }
+  #   }
+  # }
 }
 `
 export default Layout

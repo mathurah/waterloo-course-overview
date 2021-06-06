@@ -4,7 +4,6 @@ title: "Queues"
 tags: ['1B']
 ---
 [Back to SYDE 223 lectures](/1B/syde223)
-
 ## Queue Abstract Data Type
 **Queue**
 - Only support insert from **one** end and remove from the **opposite** end 
