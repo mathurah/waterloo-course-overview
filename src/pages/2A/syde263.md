@@ -23,7 +23,7 @@ When trouble-shooting the circuit, I learned to look at all the connections step
 3. If the servo motors aren't working, then you've identified the main problem. Now check, is it the specific arduino port that's not working? Would it work if you switched the pin in the code? 
 4. Otherwise, start tracing the wires line by line to see if they're connected in the wrong ports/not connected fully, unplug and replug, replace the wire if it's looking flimsy. Repeat across the breadboard and continue looking at all the wires you've connected to make sure they're all in the right places. I'd recommend trying to have a colour system for yourself so it's easy to separate the wires and know what they're used for. 
 
-![](/assets/images/syde263.png)
+![](syde263.png)
 
 It was honestly so satisfying seeing everything come together. Although the course was a pain at times the end result was worth it to see the robot finally do the task it was meant to do. Hopefully, it'll be more enjoyable in person. I think it the course could be quite intimidating for people who've never worked with tools or arduinos because there's definitely a learning curve in just getting used to the way to think about designing physical projects. It was definitely a lot more difficult to do online as it's pretty hard to troubleshoot just by showing your TA a video of your circuit. On that note, a huge shoutout goes to my TA Marco! He was so kind and patient and really appreciate all his time and effort helping myself and my classmates. I almost felt like going to the course hardware and mechanical design wasn't for me but he helped me become more confident in my skills. I might start using the Arduino to create other things of my own now!
 
@@ -35,4 +35,4 @@ When designing and building technical projects, get it right the full 100%. This
 
 Some quick tips: learn to trouble shoot. Trace everything wire by wire and try to isolate the problem so you can tackle it step by step. Ask for help and validate any doubts you have early on. The wires given in the kit are pretty flimsy, they break easily and I had to continuously trim the wire for it to make a strong connection. I bought these Jumper Cable Wires online: [https://www.amazon.ca/gp/product/B07FMZ12ZW/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1](https://www.amazon.ca/gp/product/B07FMZ12ZW/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) and found them helpful, but most people managed without these.
 
-![](/assets/images/circuits.jpg)
+![](circuits.jpg)

@@ -23,7 +23,7 @@ The method attack really helped me frame my problems and give me a clear plan of
 
 The course was split into 4 parts: kinematics of a particle, kinetics of a particle, kinematics of a rigid body and kinetics of a rigid body. 
 
-![](/assets/images/syde182.png)
+![](syde182.png)
 
 Photo of my notes! I found using Cornell notes worked well for this to split up the different sections of the method of attack
 
