@@ -2,6 +2,7 @@ import React from "react"
 import {graphql, Link} from 'gatsby'
 import Header from '../components/Header'
 import '../styles/styles.css';
+import "@fontsource/open-sans"
 
 const Layout = ({data}) => {
   const {edges} = data.allMarkdownRemark
@@ -14,7 +15,7 @@ const Layout = ({data}) => {
   
   return (
     <div className="side-margins" style= {{
-      fontFamily: 'avenir'
+      fontFamily: 'open sans'
     }}>
       <Header data={data}/>
      <h3>👋 hey there!</h3>
