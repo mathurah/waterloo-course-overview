@@ -175,6 +175,6 @@ Not sure what the next term will look like in terms but hope to host more things
 
 Overall, this was a jam-packed term full of circuits, learning about new fields, wealthsimple baos, and discovering study spots on campus.
 
-Thanks to everyone who's made it such a great term!! Grateful for all I've learned and looking forward to experiencing even more growth interning at Commandbar and Cowboy VC this winter!
+Thanks to everyone who's made it such a great term!! Grateful for all I've learned and looking forward to experiencing even more growth interning at CommandBar and Cowboy VC this winter!
 
 If you like reading things like this, let me know :) Would love to hear what everyone else has been learning and might share pieces like this more often!
