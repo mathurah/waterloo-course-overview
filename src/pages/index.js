@@ -6,7 +6,7 @@ import "@fontsource/open-sans"
 
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark
-  const pokopoko = { "1B": [], "2A": [], "2B": [], research: [] }
+  const pokopoko = { "1B": [], "2A": [], "2B": [], "3A": [], research: [] }
   edges.forEach(edge => {
     // console.log(edge)
     // console.log(edge.node.frontmatter.path.split("/"))
