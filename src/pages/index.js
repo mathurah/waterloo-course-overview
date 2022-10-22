@@ -6,7 +6,7 @@ import "@fontsource/open-sans"
 
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark
-  const pokopoko = { "1B": [], "2A": [], "2B": [] }
+  const pokopoko = { "1B": [], "2A": [], "2B": [], research: [] }
   edges.forEach(edge => {
     // console.log(edge)
     // console.log(edge.node.frontmatter.path.split("/"))
@@ -23,8 +23,9 @@ const Layout = ({ data }) => {
       <Header data={data} />
       <h3>👋 hey there!</h3>
       <p>
-        This blog is a chance for me to look back on all my courses after the
-        degree for memories on what I've learned and my experiences with them!
+        This blog is living document to keep track of key takeaways from
+        courses, things I've published and learned, and a keepsake for me to
+        look at at the end of my degree.
       </p>
       <p>
         I also thought it would be a good reference for any future SYDEs or
@@ -33,11 +34,7 @@ const Layout = ({ data }) => {
         heck even is Systems Design Engineering? (although I'm still wondering
         the answer to that question myself).
       </p>
-      <p>
-        These are the opinions of just one student and I'd encourage you to
-        reach out to other people in Systems Design Engineering to share their
-        experiences!
-      </p>
+      <p>Note: please do not copy my work!</p>
       {Object.keys(pokopoko).map(section => {
         return (
           <>
